@@ -9,8 +9,8 @@ mean2=("\"https://dictionary.cambridge.org/dictionary/english/")+(word)+("\"")
   
   # Creating dictionary to represent word and meanings. 
 
-URL1={word:mean1} 
-URL2={word:mean2} 
+url1={word:mean1} 
+url2={word:mean2} 
 
   # Displaying the URL's. 
 
