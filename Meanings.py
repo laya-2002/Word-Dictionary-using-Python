@@ -1,18 +1,18 @@
-  # Word Dictionary in Python 
+# Word Dictionary in Python 
 
 word=input() 
 
-  # Writing URL's in double quotes
+# Writing URL's in double quotes
 
 mean1=("\"https://en.m.wikipedia.org/wiki/")+(word)+("\"")
 mean2=("\"https://dictionary.cambridge.org/dictionary/english/")+(word)+("\"")
   
-  # Creating dictionary to represent word and meanings. 
+# Creating dictionary to represent word and meanings. 
 
 url1={word:mean1} 
 url2={word:mean2} 
 
-  # Displaying the URL's. 
+# Displaying the URL's. 
 
 print("$ ",meaning1[word],"\n")
 print("$ ",meaning2[word],"\n") 
